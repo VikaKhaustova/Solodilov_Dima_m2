@@ -1,0 +1,112 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #907ed6;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #5e3ede;
+    color: #907ed6;
+}
+
+a{
+    background-color:  #907ed6;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* --- СТИЛІ ДЛЯ HERO-БЛОКУ --- */
+    min-height: 90vh;
+    background: url('folder/10.jpeg');
+    text-shadow: 2px 2px 5px black;
+    color:white;
+}
+.cta-button{
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius:50px ;
+    font-weight: bold;
+    margin-top:25px ;
+    background-color:#5e3ede;;
+    box-shadow: 5px 5px 10px rgba(0,0,0.3);
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 0; 
+
+}
+
+.hero p {
+    font-size: 22px;
+   
+}
+.hero2 {
+    padding: 20px;
+    display: flex;
+    min-height: 70vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mem-text{
+    width: 600px;
+    font-size: 25px;
+}
+
+.opa{
+    color: #5e3ede;;
+}
+
+.type{
+    width: 300px;
+    background-color:  #5e3ede;
+    padding: 15px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.container h1{
+    color: orange;
+    font-size: 35px;
+}
+
+.ivan-zolo{
+    color: green;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #5e3ede;
+    color: #907ed6;
+}
+
+.random img{
+    opacity: 0;
+}
+.random img:hover{
+    opacity: 1;
+}
